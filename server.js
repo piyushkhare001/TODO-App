@@ -16,7 +16,12 @@ const app = express();
 
 app.use(cors());
 
-app.options("/api/*", cors()); // ✅ THIS LINE FIXES YOUR ISSUE
+app.use((req, res, next) => {
+  if (req.method === "OPTIONS") {
+    return res.sendStatus(200);
+  }
+  next();
+});
 
 
 // middleware
