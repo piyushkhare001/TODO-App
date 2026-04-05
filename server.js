@@ -14,8 +14,10 @@ dotenv.config();
 
 const app = express();
 
-// ✅ allow all origins (TEMP DEBUG)
 app.use(cors());
+
+app.options("/api/*", cors()); // ✅ THIS LINE FIXES YOUR ISSUE
+
 
 // middleware
 app.use(express.json());
