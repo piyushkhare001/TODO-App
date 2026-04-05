@@ -1,0 +1,7 @@
+2026-04-05T09:35:40.815Z [ERROR]: DB Error:
+2026-04-05T10:18:22.392Z [ERROR]: Task validation failed: assignedTo: Cast to ObjectId failed for value "" (type string) at path "assignedTo" because of "BSONError"
+2026-04-05T10:18:24.171Z [ERROR]: Task validation failed: assignedTo: Cast to ObjectId failed for value "" (type string) at path "assignedTo" because of "BSONError"
+2026-04-05T10:18:53.067Z [ERROR]: Task validation failed: assignedTo: Cast to ObjectId failed for value "" (type string) at path "assignedTo" because of "BSONError"
+2026-04-05T10:22:49.522Z [ERROR]: Task validation failed: assignedTo: Cast to ObjectId failed for value "" (type string) at path "assignedTo" because of "BSONError"
+2026-04-05T11:54:57.970Z [ERROR]: mongoose is not defined
+2026-04-05T11:54:58.004Z [ERROR]: mongoose is not defined

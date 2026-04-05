@@ -1,0 +1,72 @@
+2026-04-05T09:35:10.807Z [INFO]: Server running on port 5000
+2026-04-05T09:35:36.539Z [INFO]: enter in register api
+2026-04-05T09:35:36.540Z [INFO]: beofre find user 
+2026-04-05T09:35:40.815Z [ERROR]: DB Error:
+2026-04-05T09:53:46.459Z [INFO]: Server running on port 5000
+2026-04-05T09:53:47.050Z [INFO]: MongoDB Connected 🚀
+2026-04-05T09:53:55.613Z [INFO]: enter in register api
+2026-04-05T09:53:55.614Z [INFO]: beofre find user 
+2026-04-05T09:55:56.590Z [INFO]: enter in register api
+2026-04-05T09:55:56.591Z [INFO]: beofre find user 
+2026-04-05T10:18:22.392Z [ERROR]: Task validation failed: assignedTo: Cast to ObjectId failed for value "" (type string) at path "assignedTo" because of "BSONError"
+2026-04-05T10:18:24.171Z [ERROR]: Task validation failed: assignedTo: Cast to ObjectId failed for value "" (type string) at path "assignedTo" because of "BSONError"
+2026-04-05T10:18:53.067Z [ERROR]: Task validation failed: assignedTo: Cast to ObjectId failed for value "" (type string) at path "assignedTo" because of "BSONError"
+2026-04-05T10:22:49.522Z [ERROR]: Task validation failed: assignedTo: Cast to ObjectId failed for value "" (type string) at path "assignedTo" because of "BSONError"
+2026-04-05T10:25:19.957Z [INFO]: Server running on port 5000
+2026-04-05T10:25:21.043Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:26:15.848Z [INFO]: Server running on port 5000
+2026-04-05T10:26:17.780Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:27:10.784Z [INFO]: Server running on port 5000
+2026-04-05T10:27:12.446Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:27:23.536Z [INFO]: Server running on port 5000
+2026-04-05T10:27:25.094Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:27:39.116Z [INFO]: Server running on port 5000
+2026-04-05T10:27:41.723Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:28:08.680Z [INFO]: Server running on port 5000
+2026-04-05T10:28:09.222Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:28:33.908Z [INFO]: Server running on port 5000
+2026-04-05T10:28:35.389Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:28:57.254Z [INFO]: Server running on port 5000
+2026-04-05T10:28:58.716Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:29:35.958Z [INFO]: Server running on port 5000
+2026-04-05T10:29:38.046Z [INFO]: Server running on port 5000
+2026-04-05T10:29:38.874Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:44:32.626Z [INFO]: Server running on port 5000
+2026-04-05T10:44:33.281Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:48:45.654Z [INFO]: Server running on port 5000
+2026-04-05T10:48:47.738Z [INFO]: MongoDB Connected 🚀
+2026-04-05T10:54:03.501Z [INFO]: Server running on port 5000
+2026-04-05T10:54:05.272Z [INFO]: MongoDB Connected 🚀
+2026-04-05T11:09:53.975Z [INFO]: enter in register api
+2026-04-05T11:10:03.552Z [INFO]: enter in register api
+2026-04-05T11:10:03.552Z [INFO]: beofre find user 
+2026-04-05T11:49:46.714Z [INFO]: Server running on port 5000
+2026-04-05T11:49:47.366Z [INFO]: MongoDB Connected 🚀
+2026-04-05T11:54:55.310Z [INFO]: Server running on port 5000
+2026-04-05T11:54:55.850Z [INFO]: MongoDB Connected 🚀
+2026-04-05T11:54:57.970Z [ERROR]: mongoose is not defined
+2026-04-05T11:54:58.004Z [ERROR]: mongoose is not defined
+2026-04-05T11:55:30.790Z [INFO]: Server running on port 5000
+2026-04-05T11:55:32.545Z [INFO]: MongoDB Connected 🚀
+2026-04-05T11:56:30.065Z [INFO]: Server running on port 5000
+2026-04-05T11:56:30.649Z [INFO]: MongoDB Connected 🚀
+2026-04-05T12:12:38.357Z [INFO]: Server running on port 5000
+2026-04-05T12:12:39.938Z [INFO]: MongoDB Connected 🚀
+2026-04-05T12:13:01.511Z [INFO]: Server running on port 5000
+2026-04-05T12:13:01.955Z [INFO]: MongoDB Connected 🚀
+2026-04-05T12:13:05.998Z [INFO]: Server running on port 5000
+2026-04-05T12:13:06.414Z [INFO]: MongoDB Connected 🚀
+2026-04-05T12:32:19.743Z [INFO]: Server running on port 5000
+2026-04-05T12:32:20.342Z [INFO]: MongoDB Connected 🚀
+2026-04-05T12:35:22.228Z [INFO]: Server running on port 5000
+2026-04-05T12:35:22.842Z [INFO]: MongoDB Connected 🚀
+2026-04-05T12:59:14.562Z [INFO]: Server running on port 5000
+2026-04-05T12:59:15.175Z [INFO]: MongoDB Connected 🚀
+2026-04-05T12:59:17.448Z [INFO]: Server running on port 5000
+2026-04-05T12:59:17.863Z [INFO]: MongoDB Connected 🚀
+2026-04-05T13:23:13.127Z [INFO]: Server running on port 5000
+2026-04-05T13:23:13.633Z [INFO]: MongoDB Connected 🚀
+2026-04-05T13:23:59.045Z [INFO]: Server running on port 5000
+2026-04-05T13:23:59.457Z [INFO]: MongoDB Connected 🚀
+2026-04-05T13:25:08.226Z [INFO]: Server running on port 5000
+2026-04-05T13:25:08.751Z [INFO]: MongoDB Connected 🚀
