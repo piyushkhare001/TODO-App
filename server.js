@@ -3,7 +3,6 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import logger from "./config/logger.js";
-import { env } from "./config/env.js";
 
 import authRoutes from "./routes/authRoutes.js";
 import projectRoutes from "./routes/projectRoutes.js";
@@ -15,46 +14,26 @@ dotenv.config();
 
 const app = express();
 
+// ✅ allow all origins (TEMP DEBUG)
+app.use(cors());
 
-const allowedOrigins =
-  process.env.NODE_ENV === "development"
-    ? ["http://localhost:5173"]
-    : [env.CLIENT_URL];
-
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      logger.info(`Incoming origin: ${origin}`);
-
-      if (!origin || allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      }
-
-      logger.error(`CORS blocked for origin: ${origin}`);
-      return callback(null, false);
-    },
-    credentials: true,
-  })
-);
-
-
-
+// middleware
 app.use(express.json());
 
-
+// DB
 connectDB();
 
-
+// test route
 app.get("/", (req, res) => {
   res.send("API Running 🚀");
 });
 
+// routes
 app.use("/api/auth", authRoutes);
 app.use("/api/projects", projectRoutes);
 app.use("/api/tasks", taskRoutes);
 app.use("/api/comments", commentRoutes);
 app.use("/api/users", userRoutes);
-
 
 const PORT = process.env.PORT || 5000;
 
