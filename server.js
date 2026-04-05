@@ -16,11 +16,11 @@ const app = express();
 
 app.use(
   cors({
-    origin: env.CLIENT_URL|| "*",
+    origin: env.CLIENT_URL,
     credentials: true,
   })
 );
-
+console.log("CLIENT_URL:", env.CLIENT_URL);
 // middleware
 app.use(express.json());
 
