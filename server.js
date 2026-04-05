@@ -20,7 +20,8 @@ app.use(
     credentials: true,
   })
 );
-console.log("CLIENT_URL:", env.CLIENT_URL);
+app.options("*", cors());
+
 // middleware
 app.use(express.json());
 
