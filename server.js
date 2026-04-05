@@ -14,14 +14,8 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+app.use(cors())
 
-app.use((req, res, next) => {
-  if (req.method === "OPTIONS") {
-    return res.sendStatus(200);
-  }
-  next();
-});
 
 
 // middleware
